@@ -72,3 +72,4 @@ rightButton.addEventListener('click', () => {
 
 //Initialize
 ImageMover.generateImages();
+setInterval(ImageMover.moveImages, 5000, "right");
